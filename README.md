@@ -74,3 +74,6 @@ This registry is controlled by the `packages.json` file in this repository. To a
 1.  Edit `packages.json`.
 2.  Add the Git URL of the new package.
 3.  R-Universe will automatically build and publish it within an hour.
+
+---
+*Maintained by [AlfCano](https://github.com/AlfCano)*
