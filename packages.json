@@ -1,0 +1,182 @@
+[
+  {
+    "package": "rk.aiken_v",
+    "url": "https://github.com/AlfCano/rk.aiken_v"
+  },
+  {
+    "package": "rk.apyramid",
+    "url": "https://github.com/AlfCano/rk.apyramid"
+  },
+  {
+    "package": "rk.bayesian",
+    "url": "https://github.com/AlfCano/rk.bayesian"
+  },
+  {
+    "package": "rk.cartographr",
+    "url": "https://github.com/AlfCano/rk.cartographr"
+  },
+  {
+    "package": "rk.class.lists",
+    "url": "https://github.com/AlfCano/rk.class.lists"
+  },
+  {
+    "package": "rk.codebook",
+    "url": "https://github.com/AlfCano/rk.codebook"
+  },
+  {
+    "package": "rk.cSplit",
+    "url": "https://github.com/AlfCano/rk.cSplit"
+  },
+  {
+    "package": "rk.ctables",
+    "url": "https://github.com/AlfCano/rk.ctables"
+  },
+  {
+    "package": "rk.data.wrangling",
+    "url": "https://github.com/AlfCano/rk.data.wrangling"
+  },
+  {
+    "package": "rk.dates",
+    "url": "https://github.com/AlfCano/rk.dates"
+  },
+  {
+    "package": "rk.doe",
+    "url": "https://github.com/AlfCano/rk.doe"
+  },
+  {
+    "package": "rk.dplyr",
+    "url": "https://github.com/AlfCano/rk.dplyr"
+  },
+  {
+    "package": "rk.flextable",
+    "url": "https://github.com/AlfCano/rk.flextable"
+  },
+  {
+    "package": "rk.forcats",
+    "url": "https://github.com/AlfCano/rk.forcats"
+  },
+  {
+    "package": "rk.ggsurvey",
+    "url": "https://github.com/AlfCano/rk.ggsurvey"
+  },
+  {
+    "package": "rk.googlesheets4",
+    "url": "https://github.com/AlfCano/rk.googlesheets4"
+  },
+  {
+    "package": "rk.gsub.sub",
+    "url": "https://github.com/AlfCano/rk.gsub.sub"
+  },
+  {
+    "package": "rk.gtsummary",
+    "url": "https://github.com/AlfCano/rk.gtsummary"
+  },
+  {
+    "package": "rk.janitor",
+    "url": "https://github.com/AlfCano/rk.janitor"
+  },
+  {
+    "package": "rk.lavaan",
+    "url": "https://github.com/AlfCano/rk.lavaan"
+  },
+  {
+    "package": "rk.lookup",
+    "url": "https://github.com/AlfCano/rk.lookup"
+  },
+  {
+    "package": "rk.lubridate",
+    "url": "https://github.com/AlfCano/rk.lubridate"
+  },
+  {
+    "package": "rk.mult.resp",
+    "url": "https://github.com/AlfCano/rk.mult.resp"
+  },
+  {
+    "package": "rk.names.labels",
+    "url": "https://github.com/AlfCano/rk.names.labels"
+  },
+  {
+    "package": "rk.pivot.reshape",
+    "url": "https://github.com/AlfCano/rk.pivot.reshape"
+  },
+  {
+    "package": "rk.psych",
+    "url": "https://github.com/AlfCano/rk.psych"
+  },
+  {
+    "package": "rk.qcc",
+    "url": "https://github.com/AlfCano/rk.qcc"
+  },
+  {
+    "package": "rk.questionr",
+    "url": "https://github.com/AlfCano/rk.questionr"
+  },
+  {
+    "package": "rk.shiny.plugins",
+    "url": "https://github.com/AlfCano/rk.shiny.plugins"
+  },
+  {
+    "package": "rk.six.sigma",
+    "url": "https://github.com/AlfCano/rk.six.sigma"
+  },
+  {
+    "package": "rk.stringr",
+    "url": "https://github.com/AlfCano/rk.stringr"
+  },
+  {
+    "package": "rk.survey.design",
+    "url": "https://github.com/AlfCano/rk.survey.design"
+  },
+  {
+    "package": "rk.survey.wrangling",
+    "url": "https://github.com/AlfCano/rk.survey.wrangling"
+  },
+  {
+    "package": "rk.survival",
+    "url": "https://github.com/AlfCano/rk.survival"
+  },
+  {
+    "package": "rk.svyplot",
+    "url": "https://github.com/AlfCano/rk.svyplot"
+  },
+  {
+    "package": "rk.tidyr",
+    "url": "https://github.com/AlfCano/rk.tidyr"
+  },
+  {
+    "package": "rk.transpose.df",
+    "url": "https://github.com/AlfCano/rk.transpose.df"
+  },
+  {
+    "package": "rk.weibull",
+    "url": "https://github.com/AlfCano/rk.weibull"
+  },
+  {
+    "package": "rk.storytelling.data",
+    "url": "https://github.com/AlfCano/rk.storytelling.data"
+  },
+  {
+    "package": "rk.storytelling.survey",
+    "url": "https://github.com/AlfCano/rk.storytelling.survey"
+  },
+  {
+    "package": "rk.fastdummies",
+    "url": "https://github.com/AlfCano/rk.fastdummies"
+  },
+  {
+    "package": "rk.ddi.import",
+    "url": "https://github.com/AlfCano/rk.ddi.import"
+  },
+  {
+    "package": "rk.rnaturalearth",
+    "url": "https://github.com/AlfCano/rk.rnaturalearth"
+  },
+  {
+    "package": "rk.map.localities",
+    "url": "https://github.com/AlfCano/rk.map.localities"
+  },
+  {
+    "package": "rk.map.globalities",
+    "url": "https://github.com/AlfCano/rk.map.globalities"
+  }
+]
