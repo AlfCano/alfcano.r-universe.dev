@@ -1,0 +1,26 @@
+name: Sync
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  # Permite ejecutarlo manualmente desde la pestaña Actions
+  workflow_dispatch:
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Validate packages.json format
+        run: |
+          # Esto usa 'jq' para verificar que el JSON sea válido
+          if cat packages.json | jq empty; then
+            echo "✅ Valid JSON format"
+          else
+            echo "❌ Invalid JSON format"
+            exit 1
+          fi

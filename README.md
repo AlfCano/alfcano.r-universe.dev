@@ -2,6 +2,7 @@
 
 ![R-Universe](https://alfcano.r-universe.dev/badges/:total)
 ![Build Status](https://github.com/AlfCano/alfcano.r-universe.dev/actions/workflows/sync.yml/badge.svg)
+[![name status badge](https://alfonsocano.r-universe.dev/badges/:name)](https://alfonsocano.r-universe.dev/)
 
 This repository serves as the configuration registry for **[alfcano.r-universe.dev](https://alfcano.r-universe.dev)**. 
 
