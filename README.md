@@ -29,7 +29,7 @@ Run the following code in your R console (or RKWard) to install the complete col
 local({
   # 1. Lista de paquetes
   pkgs <- c(
-    "rk.aiken_v", "rk.apyramid", "rk.bayesian", "rk.cartographr", "rk.class.lists",
+    "rk.aiken.v", "rk.apyramid", "rk.bayesian", "rk.cartographr", "rk.class.lists",
     "rk.codebook", "rk.cSplit", "rk.ctables", "rk.data.wrangling", "rk.dates",
     "rk.doe", "rk.dplyr", "rk.flextable", "rk.forcats", "rk.ggsurvey",
     "rk.googlesheets4", "rk.gsub.sub", "rk.gtsummary", "rk.janitor", "rk.lavaan",
