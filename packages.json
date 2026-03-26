@@ -178,5 +178,9 @@
   {
     "package": "rk.map.globalities",
     "url": "https://github.com/AlfCano/rk.map.globalities"
+  },
+  {
+    "package": "rk.correspondence",
+    "url": "https://github.com/AlfCano/rk.correspondence"
   }
 ]
