@@ -27,7 +27,7 @@ Run the following code in your R console (or RKWard) to install the complete col
 
 ```r
 local({
-  # 1. Lista de paquetes
+  # 1. List of packages
   pkgs <- c(
     "rk.aiken.v", "rk.apyramid", "rk.bayesian", "rk.cartographr", "rk.class.lists",
     "rk.codebook", "rk.cSplit", "rk.ctables", "rk.data.wrangling", "rk.dates",
@@ -38,17 +38,17 @@ local({
     "rk.stringr", "rk.survey.design", "rk.survey.wrangling", "rk.survival",
     "rk.svyplot", "rk.tidyr", "rk.transpose.df", "rk.weibull", "rk.storytelling.data",
     "rk.storytelling.survey", "rk.fastdummies", "rk.ddi.import",
-    "rk.rnaturalearth", "rk.map.localities", "rk.map.globalities"
+    "rk.rnaturalearth", "rk.map.localities", "rk.map.globalities", "rk.text.mining", "rk.correspondence"
   )
 
-  # 2. Configurar R para usar tu Universo
+  # 2. Configure R tu use personal repository
   options(repos = c(
     alfcano = "https://alfcano.r-universe.dev",
     CRAN = "https://cloud.r-project.org"
   ))
 
-  # 3. Instalar
-  message(">>> Instalando desde tu R-Universe personal...")
+  # 3. Optimized installation
+  message(">>> Instalando desde alfcano.r-universe.dev...")
   install.packages(pkgs)
 })
 ```
