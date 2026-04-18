@@ -38,7 +38,8 @@ local({
     "rk.stringr", "rk.survey.design", "rk.survey.wrangling", "rk.survival",
     "rk.svyplot", "rk.tidyr", "rk.transpose.df", "rk.weibull", "rk.storytelling.data",
     "rk.storytelling.survey", "rk.fastdummies", "rk.ddi.import",
-    "rk.rnaturalearth", "rk.map.localities", "rk.map.globalities", "rk.text.mining", "rk.correspondence"
+    "rk.rnaturalearth", "rk.map.localities", "rk.map.globalities", 
+    "rk.text.mining", "rk.correspondence", "rk.rmd"
   )
 
   # 2. Configure R tu use personal repository

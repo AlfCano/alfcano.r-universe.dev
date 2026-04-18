@@ -183,8 +183,12 @@
     "package": "rk.correspondence",
     "url": "https://github.com/AlfCano/rk.correspondence"
   },
-    {
+  {
     "package": "rk.text.mining",
     "url": "https://github.com/AlfCano/rk.text.mining"
+  },
+  {
+    "package": "rk.rmd",
+    "url": "https://github.com/AlfCano/rk.rmd"
   }
 ]
