@@ -190,5 +190,9 @@
   {
     "package": "rk.rmd",
     "url": "https://github.com/AlfCano/rk.rmd"
+  },
+  {
+    "package": "rk.network.graphs",
+    "url": "https://github.com/AlfCano/rk.network.graphs"
   }
 ]
