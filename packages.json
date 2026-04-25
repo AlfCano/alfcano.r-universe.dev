@@ -194,5 +194,9 @@
   {
     "package": "rk.network.graphs",
     "url": "https://github.com/AlfCano/rk.network.graphs"
+  },
+  {
+    "package": "rk.exporter",
+    "url": "https://github.com/AlfCano/rk.exporter"
   }
 ]

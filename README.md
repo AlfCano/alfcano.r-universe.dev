@@ -39,7 +39,8 @@ local({
     "rk.svyplot", "rk.tidyr", "rk.transpose.df", "rk.weibull", "rk.storytelling.data",
     "rk.storytelling.survey", "rk.fastdummies", "rk.ddi.import",
     "rk.rnaturalearth", "rk.map.localities", "rk.map.globalities", 
-    "rk.text.mining", "rk.correspondence", "rk.rmd", "rk.network.graphs"
+    "rk.text.mining", "rk.correspondence", "rk.rmd", "rk.network.graphs",
+    "rk.exporter"
   )
 
   # 2. Configure R tu use personal repository
