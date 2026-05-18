@@ -40,7 +40,7 @@ local({
     "rk.storytelling.survey", "rk.fastdummies", "rk.ddi.import",
     "rk.rnaturalearth", "rk.map.localities", "rk.map.globalities", 
     "rk.text.mining", "rk.correspondence", "rk.rmd", "rk.network.graphs",
-    "rk.exporter"
+    "rk.exporter", "rk.tidycensus"
   )
 
   # 2. Configure R tu use personal repository

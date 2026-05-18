@@ -198,5 +198,9 @@
   {
     "package": "rk.exporter",
     "url": "https://github.com/AlfCano/rk.exporter"
+  },
+    {
+    "package": "rk.tidycensus",
+    "url": "https://github.com/AlfCano/rk.tidycensus"
   }
 ]
