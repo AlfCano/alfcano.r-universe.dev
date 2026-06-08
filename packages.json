@@ -202,5 +202,13 @@
     {
     "package": "rk.tidycensus",
     "url": "https://github.com/AlfCano/rk.tidycensus"
+  },
+  {
+    "package": "rk.effect.sizes",
+    "url": "https://github.com/AlfCano/rk.effect.sizes"
+  },
+    {
+    "package": "rk.interactive.bi",
+    "url": "https://github.com/AlfCano/rk.interactive.bi"
   }
 ]

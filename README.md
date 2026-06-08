@@ -10,7 +10,7 @@ It hosts a comprehensive collection of **RKWard plugins** and R packages for sta
 
 ## 📦 content
 
-This universe contains over 40 packages, including:
+This universe contains over 50 packages, including:
 *   **Statistics:** `rk.bayesian`, `rk.psych`, `rk.six.sigma`, `rk.weibull`
 *   **Data Wrangling:** `rk.janitor`, `rk.data.wrangling`, `rk.fastdummies`
 *   **Survey Analysis:** `rk.survey.design`, `rk.survey.wrangling`, `rk.ggsurvey`
@@ -40,7 +40,7 @@ local({
     "rk.storytelling.survey", "rk.fastdummies", "rk.ddi.import",
     "rk.rnaturalearth", "rk.map.localities", "rk.map.globalities", 
     "rk.text.mining", "rk.correspondence", "rk.rmd", "rk.network.graphs",
-    "rk.exporter", "rk.tidycensus"
+    "rk.exporter", "rk.tidycensus", "rk.effect.sizes", "rk.interactive.bi"
   )
 
   # 2. Configure R tu use personal repository
