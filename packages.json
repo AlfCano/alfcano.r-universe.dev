@@ -210,5 +210,9 @@
     {
     "package": "rk.interactive.bi",
     "url": "https://github.com/AlfCano/rk.interactive.bi"
+  },
+    {
+    "package": "rk.word.cloud",
+    "url": "https://github.com/AlfCano/rk.word.cloud"
   }
 ]
