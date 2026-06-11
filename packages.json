@@ -214,5 +214,9 @@
     {
     "package": "rk.word.cloud",
     "url": "https://github.com/AlfCano/rk.word.cloud"
+  },
+    {
+    "package": "rk.ipumsr",
+    "url": "https://github.com/AlfCano/rk.ipumsr"
   }
 ]
