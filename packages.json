@@ -218,5 +218,9 @@
     {
     "package": "rk.ipumsr",
     "url": "https://github.com/AlfCano/rk.ipumsr"
+  },
+    {
+    "package": "rk.gganimate",
+    "url": "https://github.com/AlfCano/rk.gganimate"
   }
 ]

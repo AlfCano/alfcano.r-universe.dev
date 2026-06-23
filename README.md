@@ -41,7 +41,7 @@ local({
     "rk.rnaturalearth", "rk.map.localities", "rk.map.globalities", 
     "rk.text.mining", "rk.correspondence", "rk.rmd", "rk.network.graphs",
     "rk.exporter", "rk.tidycensus", "rk.effect.sizes", "rk.interactive.bi",
-    "rk.word.cloud", "rk.ipumsr"
+    "rk.word.cloud", "rk.ipumsr", "rk.gganimate"
   )
 
   # 2. Configure R tu use personal repository
