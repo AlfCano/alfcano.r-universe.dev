@@ -222,5 +222,9 @@
     {
     "package": "rk.gganimate",
     "url": "https://github.com/AlfCano/rk.gganimate"
+  },
+    {
+    "package": "rk.case.if",
+    "url": "https://github.com/AlfCano/rk.case.if"
   }
 ]
