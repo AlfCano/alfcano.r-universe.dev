@@ -226,5 +226,9 @@
     {
     "package": "rk.case.if",
     "url": "https://github.com/AlfCano/rk.case.if"
+  },
+    {
+    "package": "rk.grateful",
+    "url": "https://github.com/AlfCano/rk.grateful"
   }
 ]
