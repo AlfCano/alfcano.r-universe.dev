@@ -234,5 +234,9 @@
     {
     "package": "rk.quarto",
     "url": "https://github.com/AlfCano/rk.quarto"
+  },
+    {
+    "package": "rk.efa",
+    "url": "https://github.com/AlfCano/rk.efa"
   }
 ]
