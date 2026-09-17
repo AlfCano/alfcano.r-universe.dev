@@ -42,7 +42,7 @@ local({
     "rk.text.mining", "rk.correspondence", "rk.rmd", "rk.network.graphs",
     "rk.exporter", "rk.tidycensus", "rk.effect.sizes", "rk.interactive.bi",
     "rk.word.cloud", "rk.ipumsr", "rk.gganimate", "rk.case.if", "rk.grateful", "rk.quarto",
-    "rk.efa"
+    "rk.efa", "rk.subset.tidy"
   )
 
   # 2. Configure R tu use personal repository

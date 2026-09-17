@@ -238,5 +238,9 @@
     {
     "package": "rk.efa",
     "url": "https://github.com/AlfCano/rk.efa"
+  },
+    {
+    "package": "rk.subset.tidy",
+    "url": "https://github.com/AlfCano/rk.subset.tidy"
   }
 ]
