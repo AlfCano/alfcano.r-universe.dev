@@ -242,5 +242,9 @@
     {
     "package": "rk.subset.tidy",
     "url": "https://github.com/AlfCano/rk.subset.tidy"
+  },
+    {
+    "package": "rk.haven",
+    "url": "https://github.com/AlfCano/rk.haven"
   }
 ]
