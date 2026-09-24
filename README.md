@@ -2,43 +2,41 @@
 
 ![R-Universe](https://alfcano.r-universe.dev/badges/:total)
 ![Build Status](https://github.com/AlfCano/alfcano.r-universe.dev/actions/workflows/sync.yml/badge.svg)
-[![name status badge](https://alfonsocano.r-universe.dev/badges/:name)](https://alfonsocano.r-universe.dev/)
+[![Universe Status](https://alfcano.r-universe.dev/badges/:name)](https://alfcano.r-universe.dev/)
 
 This repository serves as the configuration registry for **[alfcano.r-universe.dev](https://alfcano.r-universe.dev)**. 
 
-It hosts a comprehensive collection of **RKWard plugins** and R packages for statistics, data wrangling, and visualization. Using R-Universe ensures faster installation (pre-compiled binaries) and avoids GitHub API rate limit errors (HTTP 403).
-
-## 📦 content
-
-This universe contains over 50 packages, including:
-*   **Statistics:** `rk.bayesian`, `rk.psych`, `rk.six.sigma`, `rk.weibull`
-*   **Data Wrangling:** `rk.janitor`, `rk.data.wrangling`, `rk.fastdummies`
-*   **Survey Analysis:** `rk.survey.design`, `rk.survey.wrangling`, `rk.ggsurvey`
-*   **Visualization & Maps:** `rk.storytelling.data`, `rk.rnaturalearth`, `rk.map.localities`
-
-[**View full dashboard and package list**](https://alfcano.r-universe.dev)
-
-## 🚀 Installation
-
-You can install packages directly from this universe without needing a GitHub token.
-
-### Use The Ultimate RKWard GUI Ecosystem Meta-Package
-
-`rk.universe` is a master meta-package (inspired by the `tidyverse` philosophy) designed to easily install, load, and synchronize a massive suite of **62+ RKWard GUI plugins**. By installing this single package, you transform RKWard into a complete, state-of-the-art graphical environment for data science, statistical modeling, and academic publishing.
-
-Instead of installing and activating dozens of plugins individually, `rk.universe` handles all dependencies and seamlessly integrates every graphical menu into your RKWard interface with a single command.
+It hosts a comprehensive, constantly updating collection of **RKWard GUI plugins** and R packages for statistics, data wrangling, and visualization. Downloading from this R-Universe ensures faster installations (via pre-compiled binaries) and completely avoids GitHub API rate limit errors (HTTP 403).
 
 ---
 
+## 📦 Available Packages
+
+This universe currently serves a massive suite of **62+ packages**, transforming RKWard into a state-of-the-art graphical environment. Highlights include:
+
+*   **Statistics & Modeling:** `rk.bayesian`, `rk.psych`, `rk.lavaan`, `rk.weibull`, `rk.efa`
+*   **Data Wrangling:** `rk.janitor`, `rk.data.wrangling`, `rk.subset.tidy`, `rk.haven`
+*   **Survey Analysis:** `rk.survey.design`, `rk.survey.wrangling`, `rk.questionr`
+*   **Visualization & Maps:** `rk.storytelling.data`, `rk.rnaturalearth`, `rk.gganimate`
+*   **Publishing:** `rk.gtsummary`, `rk.flextable`, `rk.quarto`
+
+[**👉 View the full interactive dashboard and package list**](https://alfcano.r-universe.dev)
+
+---
+
+## 🚀 Installation Guide
+
+You can install packages directly from this universe without needing a GitHub account or token. 
+
+### Method 1: The `rk.universe` Meta-Package (Recommended)
+Inspired by the `tidyverse` philosophy, `rk.universe` is a master package designed to install, load, and synchronize the entire RKWard GUI ecosystem in one go. Instead of installing dozens of plugins individually, this handles all dependencies and seamlessly integrates every graphical menu into your interface.
+
 #### 🌟 Key Features
-
-*   **One-Line Installation:** Pulls over 60 highly specialized GUI plugins directly from the R-Universe servers.
+*   **One-Line Installation:** Pulls all 62+ specialized GUI plugins directly from the servers.
 *   **Automatic GUI Registration:** Features a smart `.onAttach` hook. When loaded inside RKWard, it automatically searches for and registers every `.pluginmap` file in the ecosystem. No manual XML configuration required.
-*   **Clean Console Output:** Uses the `cli` package to print a beautiful, non-obtrusive summary of loaded tools and activated menus when attaching the suite.
-*   **Comprehensive Toolset:** Equips RKWard with tools ranging from basic data wrangling (`dplyr` wrappers) to advanced structural equation modeling (`lavaan`), complex survey analysis (`srvyr`), and professional reporting (`quarto` & `flextable`).
+*   **Clean Console Output:** Uses the `cli` package to print a beautiful, non-obtrusive summary of loaded tools and activated menus.
 
-#### Code to install
-
+**Run this in your RKWard console:**
 ```R
 # 1. Enable the AlfCano R-Universe repository
 options(repos = c(
@@ -46,50 +44,17 @@ options(repos = c(
   CRAN = "https://cloud.r-project.org"
 ))
 
-# 2. Install the meta-package (This will download all 60+ plugins automatically)
+# 2. Install the master meta-package
 install.packages("rk.universe")
+
+# 3. Load the suite to instantly activate all menus!
+library(rk.universe)
 ```
 
+### Method 2: Install Specific Plugins (A la Carte)
+If you prefer a minimalist setup and only want specific tools, simply add the repository to your options and install what you need:
 
-### Option A: Install Everything (Full Suite)
-Run the following code in your R console (or RKWard) to install the complete collection of plugins:
-
-```r
-local({
-  # 1. List of packages
-  pkgs <- c(
-    "rk.aiken.v", "rk.apyramid", "rk.bayesian", "rk.cartographr", "rk.class.lists",
-    "rk.codebook", "rk.cSplit", "rk.ctables", "rk.data.wrangling", "rk.dates",
-    "rk.doe", "rk.dplyr", "rk.flextable", "rk.forcats", "rk.ggsurvey",
-    "rk.googlesheets4", "rk.gsub.sub", "rk.gtsummary", "rk.janitor", "rk.lavaan",
-    "rk.lookup", "rk.lubridate", "rk.mult.resp", "rk.names.labels", "rk.pivot.reshape",
-    "rk.psych", "rk.qcc", "rk.questionr", "rk.shiny.plugins", "rk.six.sigma",
-    "rk.stringr", "rk.survey.design", "rk.survey.wrangling", "rk.survival",
-    "rk.svyplot", "rk.tidyr", "rk.transpose.df", "rk.weibull", "rk.storytelling.data",
-    "rk.storytelling.survey", "rk.fastdummies", "rk.ddi.import",
-    "rk.rnaturalearth", "rk.map.localities", "rk.map.globalities", 
-    "rk.text.mining", "rk.correspondence", "rk.rmd", "rk.network.graphs",
-    "rk.exporter", "rk.tidycensus", "rk.effect.sizes", "rk.interactive.bi",
-    "rk.word.cloud", "rk.ipumsr", "rk.gganimate", "rk.case.if", "rk.grateful", "rk.quarto",
-    "rk.efa", "rk.subset.tidy", "rk.haven"
-  )
-
-  # 2. Configure R tu use personal repository
-  options(repos = c(
-    alfcano = "https://alfcano.r-universe.dev",
-    CRAN = "https://cloud.r-project.org"
-  ))
-
-  # 3. Optimized installation
-  message(">>> Instalando desde alfcano.r-universe.dev...")
-  install.packages(pkgs)
-})
-```
-
-### Option B: Install Specific Packages
-If you only want to install specific plugins, add the repository to your options and install as usual:
-
-```r
+```R
 # Enable the universe
 options(repos = c(
   alfcano = "https://alfcano.r-universe.dev",
@@ -99,15 +64,18 @@ options(repos = c(
 # Install specific packages
 install.packages("rk.janitor")
 install.packages("rk.rnaturalearth")
+install.packages("rk.gtsummary")
 ```
 
-## 🛠️ How to add new packages
+---
 
-This registry is controlled by the `packages.json` file in this repository. To add a new package to the universe:
+## 🛠️ How to add new packages to this Registry
 
-1.  Edit `packages.json`.
-2.  Add the Git URL of the new package.
-3.  R-Universe will automatically build and publish it within an hour.
+This registry is automated and controlled by the `packages.json` file in this repository. To add a new package to the universe:
+
+1.  Edit the `packages.json` file.
+2.  Add the Git URL of your new package repository.
+3.  Commit and push the changes. R-Universe will automatically detect it, build the binaries, and publish it within an hour.
 
 ---
 *Maintained by [AlfCano](https://github.com/AlfCano)*
