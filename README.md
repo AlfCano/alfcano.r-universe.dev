@@ -22,6 +22,35 @@ This universe contains over 50 packages, including:
 
 You can install packages directly from this universe without needing a GitHub token.
 
+### Use The Ultimate RKWard GUI Ecosystem Meta-Package
+
+`rk.universe` is a master meta-package (inspired by the `tidyverse` philosophy) designed to easily install, load, and synchronize a massive suite of **62+ RKWard GUI plugins**. By installing this single package, you transform RKWard into a complete, state-of-the-art graphical environment for data science, statistical modeling, and academic publishing.
+
+Instead of installing and activating dozens of plugins individually, `rk.universe` handles all dependencies and seamlessly integrates every graphical menu into your RKWard interface with a single command.
+
+---
+
+#### 🌟 Key Features
+
+*   **One-Line Installation:** Pulls over 60 highly specialized GUI plugins directly from the R-Universe servers.
+*   **Automatic GUI Registration:** Features a smart `.onAttach` hook. When loaded inside RKWard, it automatically searches for and registers every `.pluginmap` file in the ecosystem. No manual XML configuration required.
+*   **Clean Console Output:** Uses the `cli` package to print a beautiful, non-obtrusive summary of loaded tools and activated menus when attaching the suite.
+*   **Comprehensive Toolset:** Equips RKWard with tools ranging from basic data wrangling (`dplyr` wrappers) to advanced structural equation modeling (`lavaan`), complex survey analysis (`srvyr`), and professional reporting (`quarto` & `flextable`).
+
+#### Code to install
+
+```R
+# 1. Enable the AlfCano R-Universe repository
+options(repos = c(
+  alfcano = "https://alfcano.r-universe.dev",
+  CRAN = "https://cloud.r-project.org"
+))
+
+# 2. Install the meta-package (This will download all 60+ plugins automatically)
+install.packages("rk.universe")
+```
+
+
 ### Option A: Install Everything (Full Suite)
 Run the following code in your R console (or RKWard) to install the complete collection of plugins:
 
