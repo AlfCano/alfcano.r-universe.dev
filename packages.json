@@ -250,5 +250,9 @@
   {
   "package": "rk.universe",
   "url": "https://github.com/AlfCano/rk.universe"
+  },
+  {
+  "package": "rk.traminer",
+  "url": "https://github.com/AlfCano/rk.traminer"
 }
 ]
