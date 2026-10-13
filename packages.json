@@ -254,5 +254,9 @@
   {
   "package": "rk.traminer",
   "url": "https://github.com/AlfCano/rk.traminer"
-}
+   },
+  {
+  "package": "rk.tinyplot",
+  "url": "https://github.com/AlfCano/rk.tinyplot"
+  }
 ]
