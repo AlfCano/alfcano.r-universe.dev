@@ -258,5 +258,9 @@
   {
   "package": "rk.tinyplot",
   "url": "https://github.com/AlfCano/rk.tinyplot"
+  },
+  {
+  "package": "rk.rstatix",
+  "url": "https://github.com/AlfCano/rk.rstatix"
   }
 ]
