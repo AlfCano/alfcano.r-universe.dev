@@ -262,5 +262,9 @@
   {
   "package": "rk.rstatix",
   "url": "https://github.com/AlfCano/rk.rstatix"
+  },
+  {
+  "package": "rk.tinytable",
+  "url": "https://github.com/AlfCano/rk.tinytable"
   }
 ]
