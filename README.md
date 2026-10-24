@@ -12,7 +12,7 @@ It hosts a comprehensive, constantly updating collection of **RKWard GUI plugins
 
 ## 📦 Available Packages
 
-This universe currently serves a massive suite of **64+ packages**, transforming RKWard into a state-of-the-art graphical environment. Highlights include:
+This universe currently serves a massive suite of **67+ packages**, transforming RKWard into a state-of-the-art graphical environment. Highlights include:
 
 *   **Statistics & Modeling:** `rk.bayesian`, `rk.psych`, `rk.lavaan`, `rk.weibull`, `rk.efa`
 *   **Data Wrangling:** `rk.janitor`, `rk.data.wrangling`, `rk.subset.tidy`, `rk.haven`
