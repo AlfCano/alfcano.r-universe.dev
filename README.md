@@ -32,7 +32,7 @@ You can install packages directly from this universe without needing a GitHub ac
 Inspired by the `tidyverse` philosophy, `rk.universe` is a master package designed to install, load, and synchronize the entire RKWard GUI ecosystem in one go. Instead of installing dozens of plugins individually, this handles all dependencies and seamlessly integrates every graphical menu into your interface.
 
 #### 🌟 Key Features
-*   **One-Line Installation:** Pulls all 64+ specialized GUI plugins directly from the servers.
+*   **One-Line Installation:** Pulls all 66+ specialized GUI plugins directly from the servers.
 *   **Automatic GUI Registration:** Features a smart `.onAttach` hook. When loaded inside RKWard, it automatically searches for and registers every `.pluginmap` file in the ecosystem. No manual XML configuration required.
 *   **Clean Console Output:** Uses the `cli` package to print a beautiful, non-obtrusive summary of loaded tools and activated menus.
 

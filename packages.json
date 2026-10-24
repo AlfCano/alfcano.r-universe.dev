@@ -266,5 +266,9 @@
   {
   "package": "rk.tinytable",
   "url": "https://github.com/AlfCano/rk.tinytable"
+  },
+  {
+  "package": "rk.data.table",
+  "url": "https://github.com/AlfCano/rk.data.table"
   }
 ]
