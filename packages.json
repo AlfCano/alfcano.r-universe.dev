@@ -270,5 +270,9 @@
   {
   "package": "rk.data.table",
   "url": "https://github.com/AlfCano/rk.data.table"
+  },
+  {
+  "package": "rk.forecast",
+  "url": "https://github.com/AlfCano/rk.forecast"
   }
 ]
