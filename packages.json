@@ -274,5 +274,9 @@
   {
   "package": "rk.forecast",
   "url": "https://github.com/AlfCano/rk.forecast"
+  },
+  {
+  "package": "rk.business.mining",
+  "url": "https://github.com/AlfCano/rk.business.mining"
   }
 ]
