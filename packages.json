@@ -278,5 +278,9 @@
   {
   "package": "rk.business.mining",
   "url": "https://github.com/AlfCano/rk.business.mining"
+  },
+  {
+  "package": "rk.tuning",
+  "url": "https://github.com/AlfCano/rk.tuning"
   }
 ]
