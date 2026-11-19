@@ -282,5 +282,13 @@
   {
   "package": "rk.tuning",
   "url": "https://github.com/AlfCano/rk.tuning"
+  },
+  {
+  "package": "rk.ts.prep",
+  "url": "https://github.com/AlfCano/rk.ts.prep"
+  },
+  {
+  "package": "rk.ts.models",
+  "url": "https://github.com/AlfCano/rk.ts.models"
   }
 ]
