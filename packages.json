@@ -290,5 +290,9 @@
   {
   "package": "rk.ts.models",
   "url": "https://github.com/AlfCano/rk.ts.models"
+  },
+  {
+  "package": "rk.ts.pro",
+  "url": "https://github.com/AlfCano/rk.ts.pro"
   }
 ]
